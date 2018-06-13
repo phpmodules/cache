@@ -1,0 +1,24 @@
+{
+    "name": "phpmodules/cache",
+    "description": "cache for zend expressive",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "weinan",
+            "email": "twn39@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "PHP": "^7.1",
+        "symfony/cache": "^4.1",
+        "predis/predis": "v1.1.1",
+        "psr/container": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PHPModules\\Cache\\": "src/"
+        }
+    }
+}
